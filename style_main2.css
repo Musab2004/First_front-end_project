@@ -363,18 +363,31 @@ display: none;
               margin-left: 31%;
               font-size: 120%;
             }
+            .portio3-text{
+              width: 500px;
+              }
+              .container_phone{
+                height:150px;
+                width:80%;
+                
+            }
   
 }
 @media (max-width: 656px) { 
 .portio3-align{
-  margin-left: 11%;
+  margin-top: 5%;
+  margin-left: 25%;
   font-size: 120%;
 }
+.portio3-text{
+width: 300px;
+}
+    
     .w6-container{
         display:none
         }
         .container_phone{
-            height:350px;
+            height:250px;
             width:80%;
             
         }
@@ -410,7 +423,7 @@ display: none;
         }
         .btn-cards{
             margin-left: 45%; 
-            margin-top: 1%; 
+            margin-top: 3%; 
             width:10%;
         }
         }
@@ -418,7 +431,9 @@ display: none;
     @media (max-width: 1357px) and (min-width: 656px) {
      
      
-    
+    .portio4-bold{
+      margin-left: 25%;
+    }
      
         .container_4_phone{
             display: flex;
@@ -456,9 +471,9 @@ display: none;
 
     @media (max-width: 1357px) and (min-width: 992px) {
         .btn-cards{
-            margin-left: 30%; 
-            margin-top: 35%; 
-            width:40%;
+            margin-left: 40%; 
+            margin-top: 25%; 
+            width:20%;
         }
         .card-text{
           width:250px
@@ -492,7 +507,7 @@ display: none;
           background-color:#2B63D9;
            margin-top: 0%; 
             width: 100%;
-            height: 1300px;
+            height: 1100px;
       
         }
 
@@ -790,9 +805,11 @@ display: none;
           background-color:#3971E7 ;
         }
       }
-    
- 
-      
+      @media (max-width: 656px) {
+      .portio4-bold{
+        margin-left: 10%;
+      }
+    }
 
 
    
@@ -1029,6 +1046,10 @@ height: 150px;
     .just_for_bigscreen{
         display: none;
     }
+    .portion7-head{
+       margin-left: -15%;
+     }
+
 
 .portion7-container{
 
@@ -1324,7 +1345,7 @@ display: flex;
   padding: 0px;
   margin-right: 2%;
   margin-top: 2%;
-  height: 90%;
+  height: 110%;
   width:300px;
   background-color:#3971E7 ;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
