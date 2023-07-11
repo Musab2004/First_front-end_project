@@ -24,7 +24,7 @@ display: none;
 
 @media (min-width: 1358px) {
     .sign-btns{
-        width:20%
+        width:30%
     }
     .dots{
       
@@ -84,16 +84,16 @@ display: none;
             position: absolute;  
             top: 95%; left: 100%;
              transform: translate(-50%, -50%);
-             height:120px;
-             width:120px;
+             height:80px;
+             width:80px;
           }
 
 .logo_small{
             position: absolute; 
             top: 53%; left: 50%; 
             transform: translate(-50%, -50%);
-            height:100px;
-            width:100px;
+            height:80px;
+            width:80px;
           }
           .phone_only{
             display: none;
@@ -246,6 +246,13 @@ display: none;
             margin-left: 5%;
             width:360px
            }
+           .textinline-row{
+            margin-left: -40%;
+            width: 700px;
+            
+
+           }
+         
             .container_4 .subcontainer_4{
               flex: 1;
               margin-left: 2%;
@@ -318,7 +325,10 @@ display: none;
   
 }
 @media (max-width: 656px) { 
-
+.portio3-align{
+  margin-left: 11%;
+  font-size: 125%;
+}
     .w6-container{
         display:none
         }
@@ -345,6 +355,7 @@ display: none;
 
 
     @media (min-width: 1358px) {
+ 
         .simplecontainer{
             background-color:#2B63D9;
              margin-top: 0%; 
@@ -357,15 +368,16 @@ display: none;
             
         }
         .btn-cards{
-            margin-left: 35%; 
+            margin-left: 45%; 
             margin-top: 1%; 
-            width:20%;
+            width:10%;
         }
         }
     
     @media (max-width: 1357px) and (min-width: 656px) {
      
-
+     
+    
      
         .container_4_phone{
             display: flex;
@@ -561,7 +573,7 @@ display: none;
           margin-left:-10%;
         }
         .container_45 .subcontainer_451 .subcontainer_451_image{
-          margin-left: 850%;
+          margin-left: 650%;
           margin-top: 40%;
         
         }
@@ -571,7 +583,7 @@ display: none;
           margin-right: 0%;
           margin-top: 10%;
           height: 80%;
-          width:290px;
+          width:250px;
           background-color:#3971E7 ;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
           border: 0px solid #ccc;
@@ -586,7 +598,7 @@ display: none;
         .btn-cards{
             margin-left: 30%; 
             margin-top: 2%; 
-            width:40%;
+            width:20%;
         }
         .simplecontainer{
           background-color:#2B63D9;
@@ -607,7 +619,7 @@ display: none;
           margin-left:2%;
         }
         .container_45 .subcontainer_451 .subcontainer_451_image{
-          margin-left: 850%;
+          margin-left: 650%;
           margin-top: 40%;
         
         }
@@ -617,7 +629,7 @@ display: none;
           margin-right: 0%;
           margin-top: 10%;
           height: 80%;
-          width:290px;
+          width:250px;
           background-color:#3971E7 ;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
           border: 0px solid #ccc;
@@ -842,7 +854,7 @@ height: 150px;
         margin-left: 0%;
         margin-bottom: -25%;
         width:50%;
-        height:40%;
+        height:70%;
       }
       .half_1_1{
         flex: 1;
@@ -902,16 +914,30 @@ height: 150px;
     }
     .portion7-innercontainer .row {
 
-        margin-left: 15%;  
+        margin-left: 15%; 
+        margin-left: 23%; 
     }
     .just_for_phone{
         display: none;
+    }
+    
+    .portion7-head{
+     width: 600px; margin-left: 20%;
+    }
+    .portion7-input{
+      width: 45%; margin-left: 25%;
     }
      }
  @media (max-width: 1357px) and (min-width: 656px) {
     .just_for_phone{
         display: none;
     }
+    .portion7-input{
+      width: 450px; margin-left: 5%;
+    }
+    .portion7-head{
+      width: 600px; margin-left: -15%;
+     }
     .portion7-container{
     
     
@@ -928,7 +954,7 @@ height: 150px;
     }
     .portion7-innercontainer .row {
     
-        margin-left: 0%;
+        margin-left: 0;
         width:600px
     }
     .portion7-innercontainer .row .col{
@@ -937,7 +963,7 @@ height: 150px;
         width:300px
     }
     .textalignement1{
-        margin-left: 35%;
+        margin-left: 15%;
        }
       .textalignement1 .bold-textalignement1{
         margin-left: 10%;
@@ -1067,18 +1093,25 @@ height: 150px;
 
 
     @media (max-width: 829px) and (min-width: 760px) {
+      .footer-row1{
+        width: 700px;
+        margin-left: -10%;
+        }
+        .footer-row2{
+          width:800px
+        }
         .footer-row2-col2 {
-            margin-left: -8%;
+            margin-left: -10%;
          
            }
            .footer-row2-col1 {
-             margin-left: 5%;
+             margin-left: -10%;
           
             }
          
          
            .footer-row1-col1 {
-             margin-left: -15%;
+             margin-left: -10%;
           
             }
             .footer-row1-col2 {
@@ -1128,7 +1161,7 @@ height: 150px;
 @media (min-width: 1358px) and (max-width: 1596px) {
 
   .textinline-row{
-    width: 1300px;
+    width: 1500px;
   }
   
   .footer-row1{
@@ -1172,11 +1205,13 @@ height: 150px;
     }
 
  .container_45{
+
 display: flex;
 
  }
  .subcontainer_451{
   margin-left: 40%;
+  margin-top: 5%;
  }
 
 
@@ -1196,9 +1231,10 @@ display: flex;
   
   }
 
-  .container_4 .subcontainer_41{
+  .container_4 .subcontainer_451{
     flex: 1;
     padding: 0x;
+    margin-top: 55%;
     border: 0px solid black;
    
   }
@@ -1234,7 +1270,7 @@ display: flex;
   margin-right: 2%;
   margin-top: 2%;
   height: 90%;
-  width:250px;
+  width:300px;
   background-color:#3971E7 ;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   border: 0px solid #ccc;
@@ -1280,10 +1316,7 @@ display: flex;
 
 @media (max-width: 656px) { 
 
- .textinline-row{
-  margin-left: -45%;
-  width: 600px;
- }  
+ 
      .container3{
         height: 1600px
 
@@ -1327,5 +1360,12 @@ display: flex;
 
 
 
+.subcontainer_45{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.subcontainer_451{
+  margin-top: 3%;
+}
 
 
