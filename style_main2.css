@@ -185,6 +185,20 @@ display: none;
       .container2_medium{
         display: none;
     }
+    .container_4 .subcontainer_42{
+      flex: 1;
+      margin-left: 0%;
+      border: 0px solid black;
+      width:100px
+    
+    
+    }
+    .textinline-row{
+      margin-left: -18%;
+      
+      
+
+     }
   }
   
 
@@ -345,12 +359,16 @@ display: none;
         .w6-container_phone{
             height: 2100px;
              }
+             .portio3-align{
+              margin-left: 31%;
+              font-size: 120%;
+            }
   
 }
 @media (max-width: 656px) { 
 .portio3-align{
   margin-left: 11%;
-  font-size: 12%;
+  font-size: 120%;
 }
     .w6-container{
         display:none
