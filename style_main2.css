@@ -90,10 +90,10 @@ display: none;
 
 .logo_small{
             position: absolute; 
-            top: 55%; left: 48%; 
+            top: 53%; left: 50%; 
             transform: translate(-50%, -50%);
-            height:120px;
-            width:120px;
+            height:100px;
+            width:100px;
           }
           .phone_only{
             display: none;
