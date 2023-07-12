@@ -360,7 +360,7 @@ display: none;
             height: 2100px;
              }
              .portio3-align{
-              margin-left: 31%;
+              margin-left: 40%;
               font-size: 120%;
             }
             .portio3-text{
@@ -475,15 +475,23 @@ width: 300px;
             margin-top: 25%; 
             width:20%;
         }
+        .portio4-text{
+          width:700px;
+          text-align: center;
+          margin-left: 10%;
+        }
+        .portio4-bold{
+          margin-left: 35%;
+        }
         .card-text{
           width:250px
         }
         .card-row1{
-          width:900px;
+          width:1000px;
           margin-left:10%;
         }
         .card-row2{
-          width:900px;
+          width:1000px;
           margin-left:10%;
         }
         .container_45 .subcontainer_451 .subcontainer_451_image{
@@ -491,13 +499,16 @@ width: 300px;
           margin-top: 40%;
         
         }
+        .container3{
+          margin-left:-2%;
+        }
         .card{
           flex: 1;
           padding: 0px;
           margin-right: 0%;
           margin-top: 2%;
           height: 90%;
-          width:350px;
+          width:400px;
           background-color:#3971E7 ;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
           border: 0px solid #ccc;
@@ -524,6 +535,11 @@ width: 300px;
 
 
       @media (max-width: 991px) and (min-width: 829px) {
+        .portio4-text{
+          width:700px;
+          text-align: center;
+          margin-left: -5%;
+        }
         .btn-cards{
             margin-left: 30%; 
             margin-top: 5%; 
@@ -604,6 +620,11 @@ width: 300px;
       
       
        @media (max-width: 768px) and (min-width: 656px) {
+        .portio4-text{
+          width:650px;
+          text-align: center;
+          margin-left: -10%;
+        }
         .simplecontainer{
           background-color:#2B63D9;
            margin-top: 0%; 
@@ -612,9 +633,9 @@ width: 300px;
       
         }
         .btn-cards{
-            margin-left: 30%; 
+            margin-left: 40%; 
             margin-top: 5%; 
-            width:40%;
+            width:20%;
         }
 
         .card-text{
@@ -639,13 +660,13 @@ width: 300px;
           margin-right: 0%;
           margin-top: 10%;
           height: 80%;
-          width:250px;
+          width:280px;
           background-color:#3971E7 ;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
           border: 0px solid #ccc;
         }
         .simplecontainer-innercontainer1{
-            height: 200px;
+            height: 150px;
             
         }
       
@@ -674,6 +695,11 @@ width: 300px;
           width:650px;
           margin-left:2%;
         }
+        .portio4-text{
+          width:700px;
+          text-align: center;
+          margin-left: 0%;
+        }
         .container_45 .subcontainer_451 .subcontainer_451_image{
           margin-left: 650%;
           margin-top: 40%;
@@ -685,7 +711,7 @@ width: 300px;
           margin-right: 0%;
           margin-top: 10%;
           height: 80%;
-          width:250px;
+          width:270px;
           background-color:#3971E7 ;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
           border: 0px solid #ccc;
