@@ -58,10 +58,15 @@ display: none;
       .phone_only{
         display: none;
     }
-      
+    .portio1-bold{
+      padding-block-start: 50px; font-size: 40px;
+    }
     }
 
 @media (max-width: 1357px) and (min-width: 656px) {
+  .portio1-bold{
+    padding-block-start: 50px; font-size: 40px;
+  }
     .dots_small {
         position: absolute; 
         top: 13%; left: 7%; 
@@ -104,6 +109,9 @@ display: none;
 
 
 @media (max-width: 656px) {
+  .portio1-bold{
+    padding-block-start: 50px; font-size: 36px;
+  }
     .dots_small{
         position: absolute; 
         top: 20px; left: 14%; 
@@ -175,9 +183,10 @@ display: none;
           padding: 0x;
           border: 0px solid black;
           width:100px
-        
+          
         
         }
+
     .container2{
 
         height: 200px;
@@ -272,11 +281,11 @@ display: none;
           .container_4{
             display: flex;
             margin-left: 5%;
-            width:360px
+            width:460px
            }
            .container_4 .subcontainer_4{
             flex: 1;
-            margin-left: 0%;
+            margin-left: -15%;
             border: 0px solid black;
             width:100px
           
@@ -284,7 +293,7 @@ display: none;
           }
           .container_4 .subcontainer_42{
             flex: 1;
-            margin-left: 0%;
+            margin-left: 5%;
             border: 0px solid black;
             width:100px
           
@@ -373,15 +382,27 @@ display: none;
             }
   
 }
-@media (max-width: 656px) { 
-.portio3-align{
-  margin-top: 5%;
-  margin-left: 25%;
-  font-size: 120%;
+
+@media (max-width: 656px) and (min-width: 420px) {
+  .portio3-align{
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 120%;
+  }
 }
+@media (max-width: 420px){
+  .portio3-align{
+    margin-top: 5%;
+    margin-left: 15%;
+    font-size: 120%;
+  }
+}
+@media (max-width: 656px) { 
+
 .portio3-text{
 width: 300px;
 }
+
     
     .w6-container{
         display:none
@@ -392,7 +413,7 @@ width: 300px;
             
         }
         .w6-container_phone{
-            height: 2400px;
+            height: 2200px;
              }
   
 }
