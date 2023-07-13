@@ -7,7 +7,7 @@
 Navbar */
 @media (max-width: 1357px) and (min-width: 992px) {
     .sign-btns{
-        width:30%
+        width:25%
         
         }
 
@@ -24,7 +24,7 @@ display: none;
 
 @media (min-width: 1358px) {
     .sign-btns{
-        width:30%
+        width:25%
     }
     .dots{
       
@@ -109,6 +109,10 @@ display: none;
           .phone_only{
             display: none;
         }
+        .w3-container{
+
+          height: 700px;
+        }
         
 }
 
@@ -119,6 +123,10 @@ display: none;
 
   .container_midscreen{
     display: none;
+  }
+  .w3-container{
+
+    height: 1000px;
   }
   .portio1-bold{
     padding-block-start: 50px; font-size: 30px;
@@ -518,6 +526,7 @@ display: none;
          background-color:#2B63D9;
          height: 872px;
          padding-top: 5%;
+         
        }
        .portion4-inner2-big{
        margin-top: 5%;
@@ -761,7 +770,7 @@ height: 150px;
         margin-left: 15%;
        }
       .textalignement1 .bold-textalignement1{
-        margin-left: 10%;
+        margin-left: 20%;
        }
        .portion7-input{
         width: 70%; margin-left: 8%;
