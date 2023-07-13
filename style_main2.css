@@ -706,6 +706,9 @@ height: 150px;
     
         height:2300px;
       }
+      .simplecontainer2-mid{
+        display: none;
+      }
 
 }
 @media (max-width: 656px) { 
