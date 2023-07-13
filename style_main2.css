@@ -61,15 +61,21 @@ display: none;
     .portio1-bold{
       padding-block-start: 50px; font-size: 40px;
     }
+    .container_midscreen{
+      display: none;
+    }
     }
 
 @media (max-width: 1357px) and (min-width: 656px) {
   .portio1-bold{
     padding-block-start: 50px; font-size: 40px;
   }
+  .container_smallscreen{
+    display: none;
+  }
     .dots_small {
         position: absolute; 
-        top: 13%; left: 7%; 
+        top: 20%; left: 22%; 
         transform: translate(-50%, -50%);
        
         
@@ -87,7 +93,7 @@ display: none;
         
 .lines_small {
             position: absolute;  
-            top: 95%; left: 100%;
+            top: 95%; left: 95%;
              transform: translate(-50%, -50%);
              height:80px;
              width:80px;
@@ -95,7 +101,7 @@ display: none;
 
 .logo_small{
             position: absolute; 
-            top: 53%; left: 50%; 
+            top: 53%; left: 55%; 
             transform: translate(-50%, -50%);
             height:80px;
             width:80px;
@@ -109,6 +115,11 @@ display: none;
 
 
 @media (max-width: 656px) {
+
+
+  .container_midscreen{
+    display: none;
+  }
   .portio1-bold{
     padding-block-start: 50px; font-size: 36px;
   }
@@ -716,7 +727,7 @@ height: 150px;
 
         margin-left: 15%; 
         margin-left: 23%; 
-        width: 60%;
+        width: 50%;
     }
     .just_for_phone{
         display: none;
@@ -1008,30 +1019,7 @@ display: flex;
 
  }
 
- /* @media (max-width: 656px) and (min-width: 430px) {
 
-  .footer-phone-row2-col2{
-     margin-left: 28%;
-  }
-  .footer-phone-row2-col1{
-    margin-left: 15%;
-     
-  }
-
-
- }
- @media (max-width: 430px) {
-
-  .footer-phone-row2-col2{
-     margin-left: 5%;
-  }
-  .footer-phone-row2-col1{
-    margin-left: 10%;
-     
-  }
-
-
- } */
 
 
 
