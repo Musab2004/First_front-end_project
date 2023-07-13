@@ -688,7 +688,15 @@ height: 150px;
   
 }
 
-@media (max-width: 768px) and (min-width: 373px) {
+@media (max-width: 459px) and (min-width: 373px) {
+
+  .simplecontainer2_phone{
+     
+    height:2300px;
+  }
+
+}
+@media (max-width: 767px) and (min-width: 459px) {
   .simplecontainer2-mid{
     display: none;
   }
